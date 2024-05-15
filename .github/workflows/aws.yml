@@ -12,7 +12,7 @@ jobs:
     - name: Download ngrok
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/kaalmous/ngrok-rdp/kaal/resources/ngrok.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/kaalmous/ngrok-rdp/kaal/resources/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/ilhamhacker/ngork-rdp/blob/f46dcf6b2e3bb4e27f4a1b5b640aa676d090dfc1/resources/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/kaalmous/ngrok-rdp/kaal/resources/winrar.exe -OutFile winrar.exe
 
     - name: Extract ngrok Files
